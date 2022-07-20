@@ -12,6 +12,7 @@
 		C0E89C8B2887337500E1E613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E89C8A2887337500E1E613 /* Assets.xcassets */; };
 		C0E89C8E2887337500E1E613 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E89C8D2887337500E1E613 /* Preview Assets.xcassets */; };
 		C0E89C952887348300E1E613 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E89C942887348300E1E613 /* ListRow.swift */; };
+		C0E89C9728884E9E00E1E613 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E89C9628884E9E00E1E613 /* HeroModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C0E89C8A2887337500E1E613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E89C8D2887337500E1E613 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0E89C942887348300E1E613 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		C0E89C9628884E9E00E1E613 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				C0E89C862887337000E1E613 /* swiftUIPreviewExampleApp.swift */,
+				C0E89C9628884E9E00E1E613 /* HeroModel.swift */,
 				C0E89C942887348300E1E613 /* ListRow.swift */,
 				C0E89C882887337000E1E613 /* ContentView.swift */,
 				C0E89C8A2887337500E1E613 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E89C892887337000E1E613 /* ContentView.swift in Sources */,
+				C0E89C9728884E9E00E1E613 /* HeroModel.swift in Sources */,
 				C0E89C872887337000E1E613 /* swiftUIPreviewExampleApp.swift in Sources */,
 				C0E89C952887348300E1E613 /* ListRow.swift in Sources */,
 			);

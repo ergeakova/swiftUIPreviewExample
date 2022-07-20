@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct ListRow: View {
+    
+    let hero: HeroModel
+    
     var body: some View {
-        
         HStack{
-            Image("superman")
+            Image(hero.imageName)
                 .resizable()
                 .frame(width: 80, height: 80, alignment: .leading)
 
             Spacer()
             
             VStack{
-                Text("superman").padding()
-                Text("DC")
+                Text(hero.name).padding()
+                Text(hero.universe)
             }
         }.padding()
     }
@@ -27,6 +29,10 @@ struct ListRow: View {
 
 struct ListRow_Previews: PreviewProvider {
     static var previews: some View {
-        ListRow().previewLayout(.sizeThatFits)
+        Group{
+            ListRow(hero: HeroArray[0]) .previewLayout(.sizeThatFits)
+            ListRow(hero: HeroArray[1]) .previewLayout(.sizeThatFits)
+            ListRow(hero: HeroArray[2]) .previewLayout(.sizeThatFits)
+        }
     }
 }
