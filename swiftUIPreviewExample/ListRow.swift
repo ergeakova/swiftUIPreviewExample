@@ -30,9 +30,9 @@ struct ListRow: View {
 struct ListRow_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            ListRow(hero: HeroArray[0]) .previewLayout(.sizeThatFits)
-            ListRow(hero: HeroArray[1]) .previewLayout(.sizeThatFits)
-            ListRow(hero: HeroArray[2]) .previewLayout(.sizeThatFits)
+            ListRow(hero: HeroArray[0]) .previewLayout(.sizeThatFits).environment(\.sizeCategory, .extraExtraExtraLarge)
+            ListRow(hero: HeroArray[1]) .previewLayout(.sizeThatFits).environment(\.sizeCategory, .extraLarge)
+            ListRow(hero: HeroArray[2]) .previewLayout(.sizeThatFits).environment(\.sizeCategory, .extraSmall)
         }
     }
 }
